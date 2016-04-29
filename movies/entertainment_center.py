@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-sw_empire = media.Movie("Star Wars: The Empire Strikes Back",
+sw_empire = media.Movie("The Empire Strikes Back",
                         "A story of a boy and his toys that come to life",
                         "https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg",
                         "https://www.youtube.com/watch?v=vwyZH85NQC4")
