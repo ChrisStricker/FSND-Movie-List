@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+#Build a list Movie objects 
 sw_empire = media.Movie("The Empire Strikes Back",
                         "It's the second movie released, but the fifth in the series",
                         "https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg",
@@ -32,4 +33,6 @@ kung_fu_panda = media.Movie("Kung Fu Panda",
                         "https://www.youtube.com/watch?v=ODRUUJ81D3I")
 
 movies = [sw_empire, big_trouble, ironman, conan, monsters_inc, kung_fu_panda]
+
+# The function open_movies_page will take the list of movies, create an html file, and display it in a browser.
 fresh_tomatoes.open_movies_page(movies)
