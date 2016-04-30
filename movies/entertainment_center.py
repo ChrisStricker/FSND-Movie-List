@@ -2,34 +2,34 @@ import media
 import fresh_tomatoes
 
 sw_empire = media.Movie("The Empire Strikes Back",
-                        "A story of a boy and his toys that come to life",
+                        "It's the second movie released, but the fifth in the series",
                         "https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
+                        "https://www.youtube.com/watch?v=4_46P3Dzvvw")
 
 big_trouble = media.Movie("Big Trouble in Little China",
-                        "A story of a boy and his toys that come to life",
+                        "Jack Burton must battle battle an ancient evil",
                         "https://upload.wikimedia.org/wikipedia/en/7/76/Big_Trouble_in_Little_China_Film_Poster.jpg",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
+                        "https://www.youtube.com/watch?v=1P0A8pS1JF8")
 
 ironman = media.Movie("Iron Man",
-                        "A story of a boy and his toys that come to life",
+                        "After escaping enemy territory, Tony Stark wants to save the world",
                         "https://upload.wikimedia.org/wikipedia/en/7/70/Ironmanposter.JPG",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
+                        "https://www.youtube.com/watch?v=tbMG2yTDXSY")
 
 conan = media.Movie("Conan the Barbarian",
-                        "A story of a boy and his toys that come to life",
+                        "A boy sold into slavery becomes a man seeking revenge against the warlord who killed his family",
                         "https://upload.wikimedia.org/wikipedia/en/8/81/Conan_the_Barbarian_by_Renato_Casaro.jpg",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
+                        "https://www.youtube.com/watch?v=z5wwd1VkPd4")
 
 monsters_inc = media.Movie("Monsters, Inc.",
-                        "A story of a boy and his toys that come to life",
+                        "When a human girl wanders into the monster world, two friends must get her back home",
                         "https://upload.wikimedia.org/wikipedia/en/6/63/Monsters_Inc.JPG",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
+                        "https://www.youtube.com/watch?v=8IBNZ6O2kMk")
 
 kung_fu_panda = media.Movie("Kung Fu Panda",
-                        "A story of a boy and his toys that come to life",
+                        "An enthusiastic panda is chosen to fulfill an ancient prophecy",
                         "https://upload.wikimedia.org/wikipedia/en/7/76/Kungfupanda.jpg",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
+                        "https://www.youtube.com/watch?v=ODRUUJ81D3I")
 
 movies = [sw_empire, big_trouble, ironman, conan, monsters_inc, kung_fu_panda]
 fresh_tomatoes.open_movies_page(movies)
